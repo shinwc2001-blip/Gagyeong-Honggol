@@ -476,7 +476,7 @@ const Main = () => {
               - 브레인시티 중심상업지구 가장인접한 입지<br />
               - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분<br />
               - 평택 지제역 KTX, GTX-A · C 확정 삼성전자 평택캠퍼스, 초등학교, 수변공원<br />
-              - 모두를 누리는 반도체밸리 주거 타운의 완성
+              - 모두를 누리는 가경 홍골공원 아르보레
             </div>
             <div className={styles.text4}>
               <a href="https://naver.me/55rUFpYq" target="_black">
