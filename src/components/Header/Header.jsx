@@ -57,22 +57,22 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "59㎡", subUrl: "/FloorPlan/59A" },
-      { subTitle: "84A", subUrl: "/FloorPlan/59B" },
-      { subTitle: "84B", subUrl: "/FloorPlan/84A" },
-      { subTitle: "84C", subUrl: "/FloorPlan/84B" },
+      { subTitle: "84A", subUrl: "/FloorPlan/59A" },
+      { subTitle: "84B", subUrl: "/FloorPlan/59B" },
+      { subTitle: "84C", subUrl: "/FloorPlan/84A" },
+      // { subTitle: "84C", subUrl: "/FloorPlan/84B" },
       
 
     ],
   },
-  {
-    title: "인테리어",
-    subMenu: [
-      { subTitle: "59㎡", subUrl: "/Interior/59A" },
-      { subTitle: "84㎡", subUrl: "/Interior/84A" },
+  // {
+  //   title: "인테리어",
+  //   subMenu: [
+  //     { subTitle: "59㎡", subUrl: "/Interior/59A" },
+  //     { subTitle: "84㎡", subUrl: "/Interior/84A" },
 
-    ],
-  },
+  //   ],
+  // },
 ];
 
 const Header = () => {

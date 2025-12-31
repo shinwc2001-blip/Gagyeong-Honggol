@@ -49,7 +49,7 @@ const Footer = () => {
         <div className={styles.mobileWrapper}>
           {/* 상단 로고 */}
           <div className={styles.mobileLogo}>
-            <h2>평택 가경 홍골공원 아르보레</h2>
+            <h2>평택 가경 아르보레</h2>
           </div>
 
           {/* 안내문구 */}
@@ -73,7 +73,7 @@ const Footer = () => {
           {/* 시행사/시공사 */}
           <div className={styles.mobileCompany}>
             <div>
-              <strong>시&nbsp;공&nbsp;사</strong> (주)강산건설
+              <strong>시&nbsp;공&nbsp;사</strong> (주)BS건설
             </div>
           </div>
 
@@ -105,7 +105,7 @@ const Footer = () => {
           {/* COPYRIGHT */}
           <div className={styles.mobileCopyright}>
             <p>
-              COPYRIGHTⓒ 2025 평택 가경 홍골공원 아르보레 INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 평택 가경 아르보레 INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </div>
@@ -113,7 +113,7 @@ const Footer = () => {
         <>
           <div className={styles.desktopWrapper}>
             <div className={styles.leftSide}>
-              <h2>평택 가경 홍골공원 아르보레</h2>
+              <h2>평택 가경 아르보레</h2>
               <p>
                 본 웹사이트에서 사용된 사진 및 이미지는 <br /> 소비자의 이해를 돕기 위한
                 것으로 실제와 다를 수 있습니다.
@@ -129,7 +129,7 @@ const Footer = () => {
               </div>
               <div className={styles.companyInfo}>
                 <div>
-                  <strong>시&nbsp;공&nbsp;사</strong> (주)강산건설 
+                  <strong>시&nbsp;공&nbsp;사</strong> (주)BS건설 
                 </div>
               </div>
               <div className={styles.buttonRow}>
@@ -157,7 +157,7 @@ const Footer = () => {
           </div>
           <div className={styles.desktopCopyright}>
             <p>
-              COPYRIGHTⓒ 2025 평택 가경 홍골공원 아르보레 INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 평택 가경 아르보레 INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </>

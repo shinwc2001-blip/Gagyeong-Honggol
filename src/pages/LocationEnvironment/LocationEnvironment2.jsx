@@ -54,14 +54,14 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 프리미엄</title>
+        <title>가경 아르보레 - 프리미엄</title>
         <meta
           name="description"
-          content="가경 홍골공원 아르보레의 프리미엄 페이지에서는 이 아파트가 제공하는 다양한 고급 특화 시설과 혜택을 소개합니다. 특화 설계, 고급 자재, 입주자 전용 서비스를 통해 더 나은 생활을 제공합니다. 프리미엄 세부 사항을 확인하고 이 아파트에서 제공하는 차별화된 가치를 경험하세요."
+          content="가경 아르보레 프리미엄 페이지에서는 숲세권 입지와 특화 설계, 커뮤니티·조경·보안 시스템 등 단지가 제공하는 다양한 프리미엄 요소를 소개합니다. 장기일반민간임대 구조와 더불어 주거 품질을 높이는 차별화된 가치를 확인해 보세요."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레,가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레, 가경 아르보레 프리미엄, 청주 가경동 아파트"
         />
         <link
           rel="canonical"
@@ -71,11 +71,11 @@ const LocationEnvironment1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="가경 홍골공원 아르보레 - 프리미엄"
+          content="가경 아르보레 - 프리미엄"
         />
         <meta
           property="og:description"
-          content="가경 홍골공원 아르보레의 프리미엄 페이지에서는 이 아파트가 제공하는 다양한 고급 특화 시설과 혜택을 소개합니다. 특화 설계, 고급 자재, 입주자 전용 서비스를 통해 더 나은 생활을 제공합니다. 프리미엄 세부 사항을 확인하고 이 아파트에서 제공하는 차별화된 가치를 경험하세요."
+          content="가경 아르보레의 특화 설계, 숲세권 조경, 커뮤니티 시설, 보안·관리 시스템 등 프리미엄 요소를 한눈에 확인해 보세요. 장기 안정 거주와 쾌적한 생활 환경을 동시에 갖춘 단지입니다."
         />
         <meta
           property="og:image"
@@ -85,17 +85,17 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://niceoi.kr/LocationEnvironment/primium"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 프리미엄"
+          content="가경 아르보레 - 프리미엄"
         />
         <meta
           name="twitter:description"
-          content="가경 홍골공원 아르보레의 프리미엄 페이지에서는 이 아파트가 제공하는 다양한 고급 특화 시설과 혜택을 소개합니다. 특화 설계, 고급 자재, 입주자 전용 서비스를 통해 더 나은 생활을 제공합니다. 프리미엄 세부 사항을 확인하고 이 아파트에서 제공하는 차별화된 가치를 경험하세요."
+          content="가경 아르보레 프리미엄 페이지에서 숲세권 입지, 특화 설계, 커뮤니티·조경·보안 시스템 등 차별화된 주거 가치를 확인해 보세요."
         />
         <meta
           name="twitter:image"
@@ -110,11 +110,11 @@ const LocationEnvironment1 = () => {
         <script type="application/ld+json">
           {`
 				 {
-			 "@context": "https://schema.org",
-			 "@type": "WebPage",
-			 "name": "가경 홍골공원 아르보레 - 프리미엄",
-			 "description": "가경 홍골공원 아르보레의 프리미엄 페이지에서는 이 아파트가 제공하는 다양한 고급 특화 시설과 혜택을 소개합니다. 특화 설계, 고급 자재, 입주자 전용 서비스를 통해 더 나은 생활을 제공합니다. 프리미엄 세부 사항을 확인하고 이 아파트에서 제공하는 차별화된 가치를 경험하세요.",
-			 "url": "https://niceoi.kr/LocationEnvironment/primium"
+						"@context": "https://schema.org",
+						"@type": "WebPage",
+						"name": "가경 아르보레 - 프리미엄",
+						"description": "가경 아르보레 프리미엄 페이지는 홍골공원 숲세권 입지, 특화 설계, 조경 및 커뮤니티 시설, 보안·관리 시스템, 장기일반민간임대 구조 등 단지의 차별화된 프리미엄 요소를 종합적으로 소개합니다.",
+						"url": "https://niceoi.kr/LocationEnvironment/primium"
 				 }
 				 `}
         </script>
@@ -123,29 +123,30 @@ const LocationEnvironment1 = () => {
       <Header isChanged={isScroll} />
       <FixIcon />
 
-      <Bener title="입지환경" />
+      <Bener title="프리미엄" />
 
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 프리미엄
+        가경 아르보레 - 프리미엄
       </h1>
       <p className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레의 프리미엄 페이지에서는 이 아파트가 제공하는 다양한
-        고급 특화 시설과 혜택을 소개합니다. 특화 설계, 고급 자재, 입주자 전용
-        서비스를 통해 더 나은 생활을 제공합니다. 프리미엄 세부 사항을 확인하고
-        이 아파트에서 제공하는 차별화된 가치를 경험하세요.
+        가경 아르보레 프리미엄 페이지는 단지가 제공하는 특화 설계와
+        커뮤니티·조경·보안 시스템 등 다양한 프리미엄 요소를 소개합니다.
+        숲세권 입지와 장기일반민간임대 구조를 기반으로, 입주민이 누리게 될
+        쾌적한 주거 환경과 차별화된 가치를 객관적으로 확인할 수 있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>브레인시티의 눈부신 가치 위에</div>
-        <div>가경 홍골공원 아르보레의 새로운 자부심으로 찾아옵니다.</div>
+        <div>청주 가경동 홍골공원을 품은 숲세권 위에</div>
+        <div>가경 아르보레만의 프리미엄 라이프가 펼쳐집니다.</div>
       </div>
+
 
       <img
         src={page1}
         className={styles.image3}
-        alt="가경 홍골공원 아르보레프리미엄안내-image1"
+        alt="가경 아르보레프리미엄안내-image1"
       />
 
       <Footer />

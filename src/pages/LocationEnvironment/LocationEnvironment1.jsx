@@ -23,41 +23,41 @@ const LocationSection = [
   {
     img: section2Image1,
     titleText:
-      "확정된 개발호재로<br />평택을 더 새롭게 살수록 높아지는 미래가치",
+      "확정된 개발호재로<br />청주를 더 새롭게<br />살수록 높아지는 미래가치",
     contentText:
-      "삼성전자 평택캠퍼스 세계 최대 160만평규모(약289㎡)<br />최첨단 반도체 산업의 최중심<br />",
+      "홍골공원 민간공원 특례사업으로 조성되는 대규모 주거 타운<br />공원과 주거가 결합된 도심 속 숲세권 프리미엄",
   },
   {
     img: section2Image2,
-    titleText: "도보5분으로<br />의세권을 누리릴 수 있는 프리미엄",
+    titleText: "도보로 누리는<br />공원·생활인프라 프리미엄",
     contentText:
-      "아주대 첨단의료AI복합타운<br />AI활용 첨단의료시설로<br /> 500병상 규모로 2030년 개원 예정",
+      "홍골공원 인접 쾌적한 자연환경<br />대형마트·학교·병원 등 생활편의시설 가깝게 위치",
   },
   {
     img: section2Image3,
-    titleText: "수도권 시내·외를 더 빠르게<br />광역으로 통하는 특급 교통",
+    titleText: "청주 전역을 더 가깝게<br />쾌속으로 연결되는 교통환경",
     contentText:
-      "지제역 복한환승센터,송탄IC<br />1호선, SRT (현재운행중), KTX, GTX-A/C 확정<br /> 수도권 내 유일 펜타역세권 프리미엄",
+      "제2순환로, 서청주IC, 청주강서IC 접근성 우수<br />청주권 주요 업무·상업지로 편리한 이동",
   },
   {
     img: section2Image4,
     titleText:
-      "학교, 쇼핑,병원, 문화를 더 가깝게 한걸음에<br />모두 갖춘 중심생활",
+      "학교, 쇼핑, 병원, 문화를 한걸음에<br />모두 누리는 원스톱 생활권",
     contentText:
-      "브레인시티내 초·중·고 모두 개교예정 · 카이스트 평택 캠퍼스 2027년 개교예정<br />이마트, 코스트코 , CGV 등 편의시설 인접",
+      "가경동 상업지구 인접<br />대형마트·영화관·병원 등 풍부한 생활 인프라",
   },
   {
     img: section2Image5,
-    titleText: "품격있는 주거공간 프리미엄",
+    titleText: "품격 있는 주거공간 프리미엄",
     contentText:
-      " 전세대 4BAY 판상형 설계로 활용도 높은 주거공간<br/>영구조망권으로 조망권프리미엄까지",
+      "전세대 남향 위주의 배치와 합리적인 평면 설계<br/>채광과 통풍을 고려한 쾌적한 주거공간",
   },
   {
     img: section2Image6,
     titleText:
-      "브레인시티 최대 중심상업지구<br />도보 10분내로 근접<br /> 단지 앞 도서관,공원프리미엄까지  ",
+      "홍골공원과 맞닿은 자연 특화입지<br />단지 앞에서 누리는 공원생활",
     contentText:
-      " 브레인시티 대장입지 <br />미래도 프리미엄에 더한 슬세권 프리미엄",
+      "산책로·휴식 공간이 어우러진 공원 프리미엄<br />자연과 일상이 연결되는 힐링 라이프",
   },
 ];
 
@@ -103,25 +103,25 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 입지안내</title>
+        <title>가경 아르보레 - 입지안내</title>
         <meta
           name="description"
-          content="이 단지는 최적의 입지 조건과 우수한 교통망, 풍부한 생활 인프라, 쾌적한 녹지 환경이 완벽하게 어우러져, 편리한 생활과 미래 가치 상승을 기대할 수 있습니다. 입지안내를 통해 주변 시설, 접근성 및 발전 가능성을 상세히 확인해보세요"
+          content="가경 아르보레는 청주 가경동 홍골공원을 품은 숲세권 입지와 제2순환로·가경터미널 등 우수한 교통망, 풍부한 생활 인프라가 결합된 단지입니다. 입지안내를 통해 주변 교통, 교육, 쇼핑, 공원 등 입주 후 생활환경과 미래 가치를 종합적으로 확인해 보세요."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레, 가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레, 가경 아르보레 입지, 청주 가경동 아파트, 홍골공원 아파트"
         />
         <link rel="canonical" href="https://niceoi.kr/LocationEnvironment/intro" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="가경 홍골공원 아르보레 - 입지안내"
+          content="가경 아르보레 - 입지안내"
         />
         <meta
           property="og:description"
-          content="이 단지는 최적의 입지 조건과 우수한 교통망, 풍부한 생활 인프라, 쾌적한 녹지 환경이 완벽하게 어우러져, 편리한 생활과 미래 가치 상승을 기대할 수 있습니다. 입지안내를 통해 주변 시설, 접근성 및 발전 가능성을 상세히 확인해보세요"
+          content="청주 가경동 홍골공원을 품은 가경 아르보레의 입지 정보를 확인해 보세요. 숲세권 환경, 제2순환로와 가경터미널을 중심으로 한 교통 편의, 풍부한 생활 인프라와 미래 개발호재까지 한눈에 살펴볼 수 있습니다."
         />
         <meta
           property="og:image"
@@ -131,17 +131,17 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://niceoi.kr/LocationEnvironment/intro"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 입지안내"
+          content="가경 아르보레 - 입지안내"
         />
         <meta
           name="twitter:description"
-          content="이 단지는 최적의 입지 조건과 우수한 교통망, 풍부한 생활 인프라, 쾌적한 녹지 환경이 완벽하게 어우러져, 편리한 생활과 미래 가치 상승을 기대할 수 있습니다. 입지안내를 통해 주변 시설, 접근성 및 발전 가능성을 상세히 확인해보세요"
+          content="가경 아르보레 입지안내 페이지에서 홍골공원 숲세권, 가경터미널과 제2순환로가 제공하는 교통 편의, 생활 인프라 및 향후 개발계획을 확인해 보세요."
         />
         <meta
           name="twitter:image"
@@ -156,11 +156,11 @@ const LocationEnvironment1 = () => {
         <script type="application/ld+json">
           {`
 				 {
-			 "@context": "https://schema.org",
-			 "@type": "WebPage",
-			 "name": "가경 홍골공원 아르보레 - 입지안내",
-			 "description": "이 단지는 최적의 입지 조건과 우수한 교통망, 풍부한 생활 인프라, 쾌적한 녹지 환경이 완벽하게 어우러져, 편리한 생활과 미래 가치 상승을 기대할 수 있습니다. 입지안내를 통해 주변 시설, 접근성 및 발전 가능성을 상세히 확인해보세요",
-			 "url": "https://niceoi.kr/LocationEnvironment/intro"
+						"@context": "https://schema.org",
+						"@type": "WebPage",
+						"name": "가경 아르보레 - 입지안내",
+						"description": "가경 아르보레 입지안내 페이지는 청주 가경동 홍골공원 인접 숲세권 입지와 제2순환로·가경터미널 등 교통망, 교육·쇼핑·공원 인프라 및 향후 개발호재 정보를 종합적으로 제공합니다.",
+						"url": "https://niceoi.kr/LocationEnvironment/intro"
 				 }
 				 `}
         </script>
@@ -174,25 +174,27 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 입지안내
+        가경 아르보레 - 입지안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레의 입지 안내 페이지는 이 단지의 위치와 주변 인프라에
-        대한 상세 정보를 제공합니다. 교통, 교육, 상업시설 등 다양한 생활 편의
-        시설을 고려하여 이 아파트가 제공하는 생활 환경을 종합적으로 살펴볼 수
-        있습니다. 입지 조건을 바탕으로 더 나은 선택을 할 수 있도록 돕습니다.
+        가경 아르보레 입지 안내 페이지는 청주 가경동에 위치한 단지의 입지와
+        주변 인프라 정보를 제공합니다. 제2순환로와 가경터미널을 기반으로 한
+        교통 환경, 인근 학교와 학원가, 대형마트와 상업시설, 홍골공원 등
+        생활·자연 인프라를 종합적으로 소개하여, 실제 거주 시 누리게 될
+        생활 환경과 미래 가치를 객관적으로 확인할 수 있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>갈수록 완벽해질 브레인시티</div>
-        <div>살수록 높아질 미래도</div>
-        <div>도시를 압도할 자부심 가경 홍골공원 아르보레</div>
+        <div>청주 가경동, 홍골공원을 품은 숲세권 중심에서</div>
+        <div>생활·교통·자연이 한 번에 연결되는 입지</div>
+        <div>가경 아르보레가 새로운 주거 기준을 완성합니다</div>
       </div>
+
 
       <img
         src={page1}
         className={styles.image2}
-        alt="가경 홍골공원 아르보레 입지안내-image1"
+        alt="가경 아르보레 입지안내-image1"
       />
 
       <div className={styles.section2}>
@@ -205,45 +207,6 @@ const LocationEnvironment1 = () => {
         ))}
       </div>
 
-      <div className={styles.commonBox}>
-        <div className={styles.notice}>
-          ※평택 브레인시티 개발계획 관련내용은 '경기도 고시 제2022-283호' 및
-          '평택도시공사 브레인시티 토지 이용 계획'을 참고하였습니다
-        </div>
-        <div className={styles.notice}>
-          ※아주대학교 평택병원 및 카이스트 평택캠퍼스 관련 내용은 '평택시청'
-          2024년 주요업무계획을 참고하였습니다
-        </div>
-        <div className={styles.notice}>
-          ※평택동부고속화도로 관련 내용은 '평택시 고지 제 2023-407호'를
-          참고하였습니다
-        </div>
-        <div className={styles.notice}>
-          ※KTX 수원발 관련 내용은 '국토교통부 고시 제'2023-598호'를
-          참고하였습니다
-        </div>
-        <div className={styles.notice}>
-          ※GTX A·C 관련 내용은 '국토굥통부 2024년 1월 25일 보도자료 별첨
-          교통분야 3대 혁신 전략'을 참고하였습니다
-        </div>
-        <div className={styles.notice}>
-          ※신설도로 관련내용은 '경기도 평택시 고시 제2023-316호'를
-          참고하였습니다
-        </div>
-        <div className={styles.notice}>
-          ※본 홍보물의 위치도는 소비자의 이해를 돕기 위해 제작된 것으로, 실제와
-          차이가 날 수 있습니다
-        </div>
-        <div className={styles.notice}>
-          ※치도 등 상기 개발 및 료통 배정 등의 계획에 대한 사항은 추후 관계
-          기관의 사정에 따라 변경 및 취소될 수 있으며 이는 당사와 무관함을
-          알려드립니다
-        </div>
-        <div className={styles.notice}>
-          ※상기 이미지와 내용의 각종 시설(학교,도로망 등)은 지구단위계획의 변경,
-          허가관청 및 국가시책에 따라 변경될 수 있습니다.
-        </div>
-      </div>
 
       <Footer />
     </div>

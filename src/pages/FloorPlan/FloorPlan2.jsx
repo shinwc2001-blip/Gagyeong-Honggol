@@ -53,100 +53,16 @@ const FloorPlan2 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 59타입 평면도</title>
-        <meta
-          name="description"
-          content="84타입의평면 안내 페이지는 가경 홍골공원 아르보레의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
-        />
-        <meta
-          name="keywords"
-          content="가경 홍골공원 아르보레, 가경 홍골공원 아르보레 모델하우스"
-        />
-        <link rel="canonical" href="https://niceoi.kr/FloorPlan/59B" />
-
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="가경 홍골공원 아르보레 - 84타입 평면도"
-        />
-        <meta
-          property="og:description"
-          content="84타입의평면 안내 페이지는 가경 홍골공원 아르보레의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
-        />
-        <meta
-          property="og:image"
-          content="https://niceoi.kr/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://niceoi.kr/FloorPlan/59B"
-        />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="가경 홍골공원 아르보레 - 84타입 평면도"
-        />
-        <meta
-          name="twitter:description"
-          content="84타입의평면 안내 페이지는 가경 홍골공원 아르보레의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
-        />
-        <meta
-          name="twitter:image"
-          content="https://niceoi.kr/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://niceoi.kr/FloorPlan/59B"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-						{
-				"@context": "https://schema.org",
-				"@type": "WebPage",
-				"name": "가경 홍골공원 아르보레 - 84타입 평면도",
-				"description": "84타입의평면 안내 페이지는 가경 홍골공원 아르보레의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.",
-				"url": "https://niceoi.kr/FloorPlan/59B"
-						}
-						`}
-        </script>
-      </Helmet>
-
       <Header isChanged={isScroll} />
       <FixIcon />
 
       <Bener title="세대안내" />
 
       <MenuBar contents={menuContents} />
-      {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-      <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 84A평면안내
-      </h1>
-      <p className={styles.screenReaderOnly}>
-        84타입의평면 안내 페이지는 가경 홍골공원 아르보레의 각 아파트 평면도를
-        제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활
-        스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를
-        확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
-      </p>
 
       <div className={styles.textBox}>
-        <div>평택 브레인시티의 눈부신 가치 위에</div>
-        <div>미래도의 새로운 자부심으로 찾아옵니다.</div>
+        <div>청주 가경동 숲세권 프리미엄 위에</div>
+        <div>가경 아르보레의 넉넉한 라이프스타일을 완성하세요.</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}

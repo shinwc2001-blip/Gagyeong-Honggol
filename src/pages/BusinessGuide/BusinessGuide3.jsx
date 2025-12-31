@@ -74,22 +74,22 @@ const BusinessGuide2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 계약서류안내</title>
+        <title>가경 아르보레 - 계약서류안내</title>
         <meta
           name="description"
-          content="계약서류안내 페이지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다."
+          content="가경 아르보레 계약서류안내 페이지에서는 계약 체결 시 필요한 서류와 준비 방법을 안내합니다. 임차인·분양전환 관련 계약 절차, 제출 기한, 유의사항 등을 명확하게 제공하여 혼선 없이 준비할 수 있도록 돕습니다."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레, 가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레, 가경 아르보레 계약서류, 가경 아르보레 계약안내"
         />
         <link rel="canonical" href="https://niceoi.kr/BusinessGuide/documents" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="가경 홍골공원 아르보레 - 계약서류안내" />
+        <meta property="og:title" content="가경 아르보레 - 계약서류안내" />
         <meta
           property="og:description"
-          content="계약서류안내 페이지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다."
+          content="가경 아르보레 계약 진행을 위해 필요한 서류 목록과 준비 방법을 안내합니다. 계약 단계별로 필요한 서류와 제출 기한을 확인해 보세요."
         />
         <meta
           property="og:image"
@@ -99,17 +99,17 @@ const BusinessGuide2 = () => {
           property="og:url"
           content="https://niceoi.kr/BusinessGuide/documents"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 계약서류안내"
+          content="가경 아르보레 - 계약서류안내"
         />
         <meta
           name="twitter:description"
-          content="계약서류안내 페이지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다."
+          content="가경 아르보레 계약서류안내 페이지에서 계약 단계별로 필요한 서류와 유의사항을 확인하실 수 있습니다."
         />
         <meta
           name="twitter:image"
@@ -124,11 +124,11 @@ const BusinessGuide2 = () => {
         <script type="application/ld+json">
           {`
 								{
-						"@context": "https://schema.org",
-						"@type": "WebPage",
-						"name": "가경 홍골공원 아르보레 - 계약서류안내",
-						"description": "계약서류안내 페이지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다.",
-						"url": "https://niceoi.kr/BusinessGuide/documents"
+									"@context": "https://schema.org",
+									"@type": "WebPage",
+									"name": "가경 아르보레 - 계약서류안내",
+									"description": "가경 아르보레 계약서류안내 페이지에서는 계약 진행 시 필요한 서류, 제출 방법, 제출 기한 및 유의사항을 상세하게 안내합니다.",
+									"url": "https://niceoi.kr/BusinessGuide/documents"
 								}
 								`}
         </script>
@@ -136,29 +136,29 @@ const BusinessGuide2 = () => {
 
       <Header isChanged={isScroll} />
       <FixIcon />
-      <Bener title="사업개요" />
+      <Bener title="계약서류안내" />
       <MenuBar contents={menuContents} />
-      {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 계약서류안내
+        가경 아르보레 - 계약서류안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        계약서류안내 페이지지에서는 분양 당첨 후 필요한 서류들에 대해
-        안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의
-        제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수
-        있도록 돕습니다.
+        가경 아르보레 계약서류안내 페이지에서는 계약 체결 시 필요한 각종
+        서류와 제출 방법을 상세히 안내합니다. 서류 준비 과정에서 발생할 수 있는
+        혼선을 줄이고, 정해진 기한 내에 정확히 제출할 수 있도록 도움을 드립니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>평택 브레인시티의 눈부신 가치 위에</div>
-        <div>가경 홍골공원 아르보레의 새로운 자부심으로 찾아옵니다.</div>
+        <div>청주 가경동 숲세권 프리미엄의 가치 위에</div>
+        <div>가경 아르보레가 새로운 자부심으로 찾아옵니다.</div>
       </div>
+
 
       {/* 이미지에 isImageVisible 상태 적용 */}
       {/* <img
         className={`${styles.image4} ${isImageVisible ? styles.visible : ""}`}
         src={page1}
-        alt="가경 홍골공원 아르보레 계약서류안내-image1"
+        alt="가경 아르보레 계약서류안내-image1"
       /> */}
 <Ready/>
       <Footer />

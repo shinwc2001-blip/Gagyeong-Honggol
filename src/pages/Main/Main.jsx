@@ -47,40 +47,41 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `앞선 직주근접 라이프`,
-    text2: `세계최대규모 규모의 삼성전자 평택캠퍼스<br />
-            송탄·칠괴 산단,KG모빌리티 등 <br /> 직주근접 프리미엄`,
+    text1: `앞선 생활 인프라 프리미엄`,
+    text2: `청주 가경동 핵심 주거지 입지<br />
+            홈플러스·현대백화점·버스터미널 인접 등<br /> 완성형 생활권 프리미엄`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `안심학세권 프리미엄`,
-    text2: `브레인시티 내 초·중·고 모두 개교예정,<br />
-              카이스트평택캠퍼스 2027년 개교예정`,
+    text1: `안심 학세권 프리미엄`,
+    text2: `가경초·가경중 등 인접 학교와<br />
+              학원가 형성으로 자녀 교육 최적 입지`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `경기도권내 펜타역세권 광역교통망`,
-    text2: `평택지제역 1호선,SRT·KTX·GTX A,C라인<br />
-            송탄IC,동부화고속도로(예정) 등`,
+    text1: `사통팔달 광역 교통망`,
+    text2: `서청주IC, 남이·중부고속도로 접근 용이<br />
+            청주국제공항·오송역 이용 편리`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `합리적인 분양가 상한제`,
-    text2: `입주자의 경제적 부담을 낮춘<br />
-            내집마련의 기회`,
+    text1: `홍골공원 숲세권·공원 프리미엄`,
+    text2: `단지 인접 대규모 근린공원으로<br />
+            쾌적한 자연 친화 주거환경`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
 ];
+
 
 const Main = () => {
   // 기존 상태 변수들
@@ -190,18 +191,27 @@ const Main = () => {
             />
           )} */}
 
-          <div className={styles.imageContainer}>
-            <img src={mainImage} className={styles.mainImage} alt="가경 홍골공원 아르보레-mainimage1" />
-            <div className={styles.overlay}></div>
-            <div className={styles.mainImageTextBox}>
-              <div className={styles.mainImageTextSub}>
-                분양가 상한제 적용 <span className={styles.greyText}>착한분양가</span> | 부담을 덜어주는 <span className={styles.greyText}>착한 옵션</span> | 계약금 5%로 내집마련기회 <span className={styles.greyText}>착한조건</span>
-              </div>
-              <div className={styles.mainImageTitleBox}>
-                <div className={styles.mainImageText}>평택이 기다린 가장 착한 아파트</div>
-                <div className={styles.mainImageLine}></div>
-                <div className={styles.mainImageText}>가경 홍골공원 아르보레</div>
-              </div>
+<div className={styles.imageContainer}>
+  <img
+    src={mainImage}
+    className={styles.mainImage}
+    alt="가경 아르보레 메인 이미지"
+  />
+        <div className={styles.overlay}></div>
+        <div className={styles.mainImageTextBox}>
+          <div className={styles.mainImageTextSub}>
+            분양가 상한제 적용 <span className={styles.greyText}>착한 분양가</span> |
+            부담을 줄여주는 <span className={styles.greyText}>합리적 옵션</span> |
+            계약금 5%로 내 집 마련 기회 <span className={styles.greyText}>유리한 조건</span>
+          </div>
+
+          <div className={styles.mainImageTitleBox}>
+            <div className={styles.mainImageText}>청주가 기대한 새로운 주거 기준</div>
+            <div className={styles.mainImageLine}></div>
+            <div className={styles.mainImageText}>가경 아르보레</div>
+          </div>
+
+
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
               <div>
                 <button
@@ -211,7 +221,7 @@ const Main = () => {
                   <img
                     src={subpinkimg}
                     className={styles.subPinkImg}
-                    alt="가경 홍골공원 아르보레 관심고객등록"
+                    alt="가경 아르보레 관심고객등록"
                   />
                 </button>
               </div>
@@ -224,14 +234,16 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.text1}>Location</div>
                 <div className={styles.text2}>
-                  " 방문 예약 고객 전원 스타벅스 기프티콘 100% 증정 "
+                  " 방문 예약 고객 전원 스타벅스 기프티콘 증정 "
                 </div>
+
                 <div className={styles.text3}>
-                  - 브레인시티 중심상업지구 매우인접 <br />
-                  - 첨단 아주대학교 종합병원 도보 5분 <br />
-                  - 평택 지제역 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권 <br />
-                  - 모두를 누리는 가경 홍골공원 아르보레
+                  - 가경동 중심 생활권, 대규모 공원 인접<br />
+                  - 청주 전역으로 연결되는 주요 도로 접근성 우수<br />
+                  - 교육·쇼핑·의료 인프라 풍부한 원스톱 생활권<br />
+                  - 모두가 누리는 프리미엄, 가경 아르보레
                 </div>
+
                 <div className={styles.text4}>
                   <a href="https://naver.me/55rUFpYq" target="_black">
                     관심고객 등록하기 {">"}
@@ -239,7 +251,7 @@ const Main = () => {
                 </div>
               </div>
               <div className={styles.menuBox}>
-                <img src={section1_Image1} alt="가경 홍골공원 아르보레브랜드소개-image2" />
+                <img src={section1_Image1} alt="가경 아르보레브랜드소개-image2" />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
                 </Link>
@@ -252,17 +264,17 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.title}>
                   소수만 누릴 수 있는<br />
-                  <span>착한가격의 아파트 <br />가경 홍골공원 아르보레</span>
+                  <span>착한가격의 아파트 <br />가경 아르보레</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    가경 홍골공원 아르보레이 함께합니다
+                    가경 아르보레가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={section8Img3} alt="가경 홍골공원 아르보레입지환경소개-image2" />
+              <img src={section8Img3} alt="가경 아르보레입지환경소개-image2" />
             </div>
           </div>
 
@@ -273,7 +285,7 @@ const Main = () => {
                   완벽한 생활에서 준비된 미래까지
                 </div>
                 <div className={`${styles.text2} fadeUpRepeat`}>
-                  기대한 모든 프리미엄이<br />가경 홍골공원 아르보레에서 펼쳐집니다
+                  기대한 모든 프리미엄이<br />가경 아르보레에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -285,7 +297,7 @@ const Main = () => {
                   주거의 품격과 가치를 높이는 <span>특화설계</span><br />안전한 이동을 위한 세심한 <span>단지설계</span><br />편리한 생활을 위한 최적의 <span>공간설계</span>
                 </div>
               </div>
-              <img src={section2_Image1} alt="가경 홍골공원 아르보레아파트 조감도-image3" />
+              <img src={section2_Image1} alt="가경 아르보레아파트 조감도-image3" />
             </div>
           </div>
 
@@ -308,8 +320,8 @@ const Main = () => {
           <div className={styles.section}>
             <div className={styles.section4}>
               <div className={styles.imageBox}>
-                <img src={section4_Image1} alt="가경 홍골공원 아르보레브랜드소개-image4" />
-                <div className={styles.text1}>가경 홍골공원 아르보레</div>
+                <img src={section4_Image1} alt="가경 아르보레브랜드소개-image4" />
+                <div className={styles.text1}>가경 아르보레</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>당신의 삶, 그 고귀함이 계속되길</div>
               </div>
@@ -326,7 +338,7 @@ const Main = () => {
   {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
   <div className={styles.pcTitleRow}>
     <div className={styles.leftTitle}>
-      <h2>가경 홍골공원 아르보레</h2>
+      <h2>가경 아르보레</h2>
       <p>방문예약</p>
     </div>
     <div className={styles.rightText}>
@@ -385,18 +397,18 @@ const Main = () => {
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                  가경 홍골공원 아르보레<br />
+                  가경 아르보레<br />
                   <span>견본주택 오시는길</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    가경 홍골공원 아르보레이 함께합니다
+                    가경 아르보레가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="가경 홍골공원 아르보레오시는길안내-image1" />
+              <img src={map1} alt="가경 아르보레오시는길안내-image1" />
             </div>
           </div> */}
 
@@ -449,21 +461,25 @@ const Main = () => {
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
-            <img src={mobileImageMain} className={styles.mainImage} alt="가경 홍골공원 아르보레mobilemain-image1" />
+            <img src={mobileImageMain} className={styles.mainImage} alt="가경 아르보레mobilemain-image1" />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
-              <div className={styles.mainImageTextSub1}>
-                분양가 상한제 적용<br />
-                <span className={styles.greyText}>착한분양가</span><br />
-                부담을 덜어주는<br />
-                <span className={styles.greyText}>착한 옵션</span><br />
-                계약금 5%로 내집마련기회<br />
-                <span className={styles.greyText}>착한조건</span>
+            <div className={styles.mainImageTextSub1}>
+              분양가 상한제 적용<br />
+              <span className={styles.greyText}>합리적 분양가</span><br />
+              초기 부담을 낮춘<br />
+              <span className={styles.greyText}>선택형 옵션</span><br />
+              계약금 5%로 내 집 마련 기회<br />
+              <span className={styles.greyText}>우수한 조건</span>
+            </div>
+            <div className={styles.mainImageTitleBox1}>
+              <div className={styles.mainImageText1}>
+                청주가 기다린<br /> 새로운 아파트 프리미엄
               </div>
-              <div className={styles.mainImageTitleBox1}>
-                <div className={styles.mainImageText1}>평택이 기다린<br /> 가장 착한 아파트</div>
-                <div className={styles.mainImageText5}>평택 브레인시티 <br />앤네이처 미래도</div>
+                <div className={styles.mainImageText5}>
+                가경 아르보레
               </div>
+                          </div>
             </div>
           </div>
 
@@ -472,12 +488,13 @@ const Main = () => {
             <div className={styles.text2}>
               "방문예약을 하시면 신세계 상품권 100% 증정 "
             </div>
-            <div className={styles.text3}>
-              - 브레인시티 중심상업지구 가장인접한 입지<br />
-              - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분<br />
-              - 평택 지제역 KTX, GTX-A · C 확정 삼성전자 평택캠퍼스, 초등학교, 수변공원<br />
-              - 모두를 누리는 가경 홍골공원 아르보레
-            </div>
+                <div className={styles.text3}>
+                  - 가경동 중심 생활권, 대규모 공원 인접<br />
+                  - 청주 전역으로 연결되는 주요 도로 접근성 우수<br />
+                  - 교육·쇼핑·의료 인프라 풍부한 원스톱 생활권<br />
+                  - 모두가 누리는 프리미엄, 가경 아르보레
+                </div>
+
             <div className={styles.text4}>
               <a href="https://naver.me/55rUFpYq" target="_black">
                 관심고객 등록하기 {">"}
@@ -488,18 +505,18 @@ const Main = () => {
           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                평택 브레인시티의 중심으로 사는<br />
+                청주 가경의 중심으로 사는<br />
                 <span>착한 가격의 분상제 아파트</span>
               </div>
               <div className={styles.subTitle}>
                 <div className={styles.textLine}></div>
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해<br />
-                  가경 홍골공원 아르보레이 함께합니다
+                  가경 아르보레가 함께합니다
                 </div>
               </div>
             </div>
-            <img src={section8Img3} alt="가경 홍골공원 아르보레mobile입지안내-image1" />
+            <img src={section8Img3} alt="가경 아르보레mobile입지안내-image1" />
           </div>
 
           <div className={styles.container3}>
@@ -509,15 +526,15 @@ const Main = () => {
               </div>
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이<br />
-                가경 홍골공원 아르보레에서 펼쳐집니다
+                가경 아르보레에서 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른<br />
-                프리미엄 주거라이프를 가경 홍골공원 아르보레 모델하우스에서 확인하세요
+                프리미엄 주거라이프를 가경 아르보레 모델하우스에서 확인하세요
               </div>
             </div>
-            <img src={section2_Image1} alt="가경 홍골공원 아르보레mobile조감도-image1" />
+            <img src={section2_Image1} alt="가경 아르보레mobile조감도-image1" />
           </div>
 
           <div className={styles.container4}>
@@ -543,7 +560,7 @@ const Main = () => {
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>
-  <h2>가경 홍골공원 아르보레</h2>
+  <h2>가경 아르보레</h2>
   <p className={styles.mobileSubTitle}>방문예약</p>
   <p className={styles.mobileInfoText}>
     방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
@@ -595,7 +612,7 @@ const Main = () => {
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
-              <img src={mobilemap1} alt="가경 홍골공원 아르보레오시는길안내-mobileimage2" />
+              <img src={mobilemap1} alt="가경 아르보레오시는길안내-mobileimage2" />
             </div>
           </div> */}
 

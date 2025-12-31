@@ -64,22 +64,22 @@ const Interior2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 84A인테리어</title>
+        <title>가경 아르보레 - 84A인테리어</title>
         <meta
           name="description"
-          content="84A인테리어 페이지에서는 가경 홍골공원 아르보레의 고급 84A인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 84A인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 84A인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
+          content="84A인테리어 페이지에서는 가경 아르보레의 고급 84A인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 84A인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 84A인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레,가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레,가경 아르보레 모델하우스"
         />
         <link rel="canonical" href="https://niceoi.kr/Interior/84A" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="가경 홍골공원 아르보레 - 84A인테리어" />
+        <meta property="og:title" content="가경 아르보레 - 84A인테리어" />
         <meta
           property="og:description"
-          content="84A인테리어 페이지에서는 가경 홍골공원 아르보레의 고급 84A인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 84A인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 84A인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
+          content="84A인테리어 페이지에서는 가경 아르보레의 고급 84A인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 84A인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 84A인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
         />
         <meta
           property="og:image"
@@ -89,17 +89,17 @@ const Interior2 = () => {
           property="og:url"
           content="https://niceoi.kr/Interior/84A"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 84A인테리어"
+          content="가경 아르보레 - 84A인테리어"
         />
         <meta
           name="twitter:description"
-          content="84A인테리어 페이지에서는 가경 홍골공원 아르보레의 고급 84A인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 84A인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 84A인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
+          content="84A인테리어 페이지에서는 가경 아르보레의 고급 84A인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 84A인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 84A인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다."
         />
         <meta
           name="twitter:image"
@@ -116,8 +116,8 @@ const Interior2 = () => {
 				 {
 			 "@context": "https://schema.org",
 			 "@type": "WebPage",
-			 "name": "가경 홍골공원 아르보레 - 84A84A인테리어",
-			 "description": "84A인테리어 페이지에서는 가경 홍골공원 아르보레의 고급 84A인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 84A인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 84A인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.",
+			 "name": "가경 아르보레 - 84A84A인테리어",
+			 "description": "84A인테리어 페이지에서는 가경 아르보레의 고급 84A인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 84A인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 84A인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.",
 			 "url": "https://niceoi.kr/Interior/84A"
 				 }
 				 `}
@@ -132,19 +132,20 @@ const Interior2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 84A84A인테리어
+        가경 아르보레 - 인테리어
       </h1>
       <p className={styles.screenReaderOnly}>
-        84A타입의 84A인테리어 페이지에서는 가경 홍골공원 아르보레의 고급 84A인테리어
-        디자인을 소개합니다. 세련된 디자인과 최첨단 84A인테리어 요소들이 결합되어,
-        입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 84A인테리어
-        스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
+        84A 타입 인테리어 페이지에서는 가경 아르보레 84A 타입의 내부 공간 디자인을
+        소개합니다. 세련된 마감과 효율적인 공간 구성, 다양한 수납 설계가 조화를 이루어
+        입주자에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 콘셉트와 자재
+        특징을 확인하며 나만의 라이프스타일에 맞는 주거공간을 만나보세요.
       </p>
 
       <div className={styles.textBox}>
-        <div>브레인시티 눈부신 가치 위에</div>
-        <div>새로운 자부심으로 찾아옵니다.</div>
+        <div>청주 가경동 숲세권 프리미엄 위에</div>
+        <div>가경 아르보레 인테리어가 새로운 주거 기준을 제시합니다.</div>
       </div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
       {/* <img
@@ -152,7 +153,7 @@ const Interior2 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="가경 홍골공원 아르보레 84A인테리어84A-image2"
+        alt="가경 아르보레 84A인테리어84A-image2"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       /> */}
 <Ready/>

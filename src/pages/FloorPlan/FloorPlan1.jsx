@@ -65,14 +65,14 @@ const FloorPlan1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 59타입 평면도</title>
+        <title>가경 아르보레 - 평면도</title>
         <meta
           name="description"
-          content="59타입의평면 안내 페이지는 가경 홍골공원 아르보레의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+          content="59타입 평면 안내 페이지는 가경 아르보레의 전용 59㎡ 타입 평면 정보를 제공합니다. 고객이 세대 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 공간 구성과 수납 계획을 확인하고 나에게 맞는 최적의 공간을 찾아보세요."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레, 가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레, 가경 아르보레, 가경 아르보레 평면도"
         />
         <link
           rel="canonical"
@@ -80,10 +80,10 @@ const FloorPlan1 = () => {
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="가경 홍골공원 아르보레 - 59타입 평면도" />
+        <meta property="og:title" content="가경 아르보레 - 평면도" />
         <meta
           property="og:description"
-          content="59타입의평면 안내 페이지는 가경 홍골공원 아르보레의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+          content="가경 아르보레 평면 안내 페이지에서 전용 59㎡ 타입의 구조와 공간 구성을 확인해 보세요. 실용적인 설계와 효율적인 수납 계획을 한눈에 살펴볼 수 있습니다."
         />
         <meta
           property="og:image"
@@ -93,17 +93,17 @@ const FloorPlan1 = () => {
           property="og:url"
           content="https://niceoi.kr/FloorPlan/59A"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 59타입평면도"
+          content="가경 아르보레 - 평면도"
         />
         <meta
           name="twitter:description"
-          content="59타입의평면 안내 페이지는 가경 홍골공원 아르보레의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요."
+          content="가경 아르보레 평면도를 통해 세대 구조와 공간 활용 계획을 확인하고, 나에게 잘 맞는 타입을 선택해 보세요."
         />
         <meta
           name="twitter:image"
@@ -118,11 +118,11 @@ const FloorPlan1 = () => {
         <script type="application/ld+json">
           {`
 					{
-			"@context": "https://schema.org",
-			"@type": "WebPage",
-			"name": "가경 홍골공원 아르보레 - 단지배치도",
-			"description": "59타입의평면 안내 페이지는 가경 홍골공원 아르보레의 각 아파트 평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를 확인하고 자신에게 맞는 최적의 공간을 찾아보세요.",
-			"url": "https://niceoi.kr/FloorPlan/59A"
+						"@context": "https://schema.org",
+						"@type": "WebPage",
+						"name": "가경 아르보레 - 평면도",
+						"description": "가경 아르보레 평면 안내 페이지는 전용 59㎡ 타입의 세대 구조와 공간 구성을 제공하여, 고객이 자신의 생활 패턴에 맞는 평형을 선택할 수 있도록 돕는 정보 페이지입니다.",
+						"url": "https://niceoi.kr/FloorPlan/59A"
 					}
 					`}
         </script>
@@ -136,19 +136,20 @@ const FloorPlan1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 평면안내
+        가경 아르보레 - 평면안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        59타입의평면 안내 페이지는 가경 홍골공원 아르보레의 각 아파트 평면도를
-        제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의 생활
-        스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를
-        확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
+        평면 안내 페이지는 가경 아르보레 전용 59㎡ 타입의 세대 구조와
+        공간 활용 방식을 제공합니다. 고객이 방 배치, 거실·주방 구성, 수납 계획
+        등을 미리 확인하고 자신의 생활 스타일에 맞는 평형을 선택할 수 있도록
+        돕습니다. 다양한 평면 설계를 비교하며 가장 적합한 공간을 찾아보세요.
       </p>
 
       <div className={styles.textBox}>
-        <div>평택 브레인시티의 눈부신 가치 위에</div>
-        <div>미래도의 새로운 자부심으로 찾아옵니다.</div>
+        <div>청주 가경동 숲세권 프리미엄 위에</div>
+        <div>가경 아르보레의 효율적인 공간 설계를 만나보세요.</div>
       </div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
       <img
@@ -156,7 +157,7 @@ const FloorPlan1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="가경 홍골공원 아르보레 59타입의평면안내-image1"
+        alt="가경 아르보레의평면안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

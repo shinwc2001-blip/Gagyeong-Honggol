@@ -59,16 +59,17 @@ const Interior3 = () => {
 
 			<MenuBar contents={menuContents} />
 
-			<div className={styles.textBox}>
-				<div>가경 홍골공원 아르보레가 평택의의 눈부신 가치 위에</div>
-				<div>새로운 자부심으로 찾아옵니다.</div>
-			</div>
+      <div className={styles.textBox}>
+        <div>청주 가경동 숲세권 프리미엄 위에</div>
+        <div>가경 아르보레 인테리어가 새로운 주거 기준을 제시합니다.</div>
+      </div>
+
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="가경 홍골공원 아르보레 인테리어 안내"
+				alt="가경 아르보레 인테리어 안내"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

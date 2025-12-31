@@ -58,14 +58,14 @@ const ComplexGuide3 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 커뮤니티</title>
+        <title>가경 아르보레 - 커뮤니티</title>
         <meta
           name="description"
-          content="가경 홍골공원 아르보레의 커뮤니티 페이지에서는 단지 내 다양한 커뮤니티 시설을 소개합니다. 헬스장, 독서실, 카페 등 주민들의 편리한 생활을 위한 다양한 시설들이 준비되어 있습니다. 이러한 시설들이 입주민들의 삶의 질을 높이고, 더 나은 공동체 생활을 만들어주는 역할을 합니다."
+          content="가경 아르보레 커뮤니티 페이지에서는 단지 내 다양한 커뮤니티 시설을 소개합니다. 피트니스, 스터디·독서 공간, 어린이·가족 커뮤니티룸 등 입주민의 라이프스타일을 고려한 시설들이 마련되어 있어 일상 속에서 여가와 휴식을 풍부하게 누릴 수 있습니다."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레,가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레, 가경 아르보레 커뮤니티, 가경 아르보레 커뮤니티시설"
         />
         <link
           rel="canonical"
@@ -75,11 +75,11 @@ const ComplexGuide3 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="가경 홍골공원 아르보레 - 커뮤니티"
+          content="가경 아르보레 - 커뮤니티"
         />
         <meta
           property="og:description"
-          content="가경 홍골공원 아르보레의 커뮤니티 페이지에서는 단지 내 다양한 커뮤니티 시설을 소개합니다. 헬스장, 독서실, 카페 등 주민들의 편리한 생활을 위한 다양한 시설들이 준비되어 있습니다. 이러한 시설들이 입주민들의 삶의 질을 높이고, 더 나은 공동체 생활을 만들어주는 역할을 합니다."
+          content="가경 아르보레 단지 내 커뮤니티 시설을 한눈에 확인할 수 있는 페이지입니다. 입주민의 건강, 휴식, 소통을 위한 다양한 커뮤니티 공간들이 삶의 질을 한 단계 높여줍니다."
         />
         <meta
           property="og:image"
@@ -89,17 +89,17 @@ const ComplexGuide3 = () => {
           property="og:url"
           content="https://niceoi.kr/ComplexGuide/community"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 커뮤니티"
+          content="가경 아르보레 - 커뮤니티"
         />
         <meta
           name="twitter:description"
-          content="가경 홍골공원 아르보레의 커뮤니티 페이지에서는 단지 내 다양한 커뮤니티 시설을 소개합니다. 헬스장, 독서실, 카페 등 주민들의 편리한 생활을 위한 다양한 시설들이 준비되어 있습니다. 이러한 시설들이 입주민들의 삶의 질을 높이고, 더 나은 공동체 생활을 만들어주는 역할을 합니다."
+          content="가경 아르보레의 다양한 커뮤니티 시설을 소개합니다. 피트니스, 독서·스터디 공간, 가족 커뮤니티 공간 등 입주민을 위한 생활 특화 시설을 만나보세요."
         />
         <meta
           name="twitter:image"
@@ -114,11 +114,11 @@ const ComplexGuide3 = () => {
         <script type="application/ld+json">
           {`
 					{
-			"@context": "https://schema.org",
-			"@type": "WebPage",
-			"name": "가경 홍골공원 아르보레 - 커뮤니티",
-			"description": "가경 홍골공원 아르보레의 커뮤니티 페이지에서는 단지 내 다양한 커뮤니티 시설을 소개합니다. 헬스장, 독서실, 카페 등 주민들의 편리한 생활을 위한 다양한 시설들이 준비되어 있습니다. 이러한 시설들이 입주민들의 삶의 질을 높이고, 더 나은 공동체 생활을 만들어주는 역할을 합니다.",
-			"url": "https://niceoi.kr/ComplexGuide/community"
+						"@context": "https://schema.org",
+						"@type": "WebPage",
+						"name": "가경 아르보레 - 커뮤니티",
+						"description": "가경 아르보레 커뮤니티 페이지는 단지 내 피트니스, 독서실·스터디룸, 라운지, 키즈·가족 커뮤니티룸 등 입주민의 생활 편의와 소통을 위한 다양한 커뮤니티 시설을 소개합니다.",
+						"url": "https://niceoi.kr/ComplexGuide/community"
 					}
 					`}
         </script>
@@ -130,19 +130,21 @@ const ComplexGuide3 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 커뮤니티
+        가경 아르보레 - 커뮤니티
       </h1>
       <p className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레의 커뮤니티 페이지에서는 단지 내 다양한 커뮤니티
-        시설을 소개합니다. 헬스장, 독서실, 카페 등 주민들의 편리한 생활을 위한
-        다양한 시설들이 준비되어 있습니다. 이러한 시설들이 입주민들의 삶의 질을
-        높이고, 더 나은 공동체 생활을 만들어주는 역할을 합니다.
+        가경 아르보레 커뮤니티 페이지에서는 단지 내 입주민을 위한 다양한
+        커뮤니티 시설을 안내합니다. 피트니스 시설, 독서 및 스터디 공간,
+        라운지와 가족 커뮤니티룸 등 일상 속 여가와 휴식을 돕는 공간들을 통해
+        입주민의 삶의 질을 높이고, 풍부한 공동체 문화를 형성하는 것을 목표로
+        합니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>가경 홍골공원 아르보레가 눈부신 가치 위에</div>
-        <div>새로운 자부심으로 찾아옵니다.</div>
+        <div>청주 가경동 숲세권 프리미엄의 가치 위에</div>
+        <div>가경 아르보레 커뮤니티가 새로운 일상을 완성합니다.</div>
       </div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
       <img

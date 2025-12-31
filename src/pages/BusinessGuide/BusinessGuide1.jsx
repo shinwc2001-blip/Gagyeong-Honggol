@@ -12,13 +12,14 @@ import tableImage from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg
 import { Helmet } from "react-helmet-async";
 
 const projectData = [
-  { label: "사업명", value: "가경 홍골공원 아르보레" },
-  { label: "사업위치", value: "평택 브레인시티 공동 10BL 공동주택 신축공사" },
-  { label: "대지면적", value: "64,616.0000㎡" },
-  { label: "연면적", value: "223,159.1959㎡" },
-  { label: "건축규모", value: "지하 2층 ~ 지상 35층 / 9개동" },
-  { label: "세대수", value: "59㎡, 84㎡ A, 84㎡ B, 84㎡ C / 총 1,413세대" },
+  { label: "사업명", value: "가경 아르보레" },
+  { label: "사업위치", value: "충청북도 청주시 흥덕구 가경동 홍골공원 일원" },
+  { label: "대지면적", value: "약 64,616㎡" },
+  { label: "연면적", value: "약 223,159㎡" },
+  { label: "건축규모", value: "지하 2층 ~ 지상 29층 / 7개동" },
+  { label: "세대수", value: "전용 84㎡ A·B·C / 총 921세대(예정)" },
 ];
+
 
 const BusinessGuide1 = () => {
   const menuContents = [
@@ -63,22 +64,22 @@ const BusinessGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 사업안내</title>
+        <title>가경 아르보레 - 사업안내</title>
         <meta
           name="description"
-          content="가경 홍골공원 아르보레은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다."
+          content="가경 아르보레는 청주 가경동 홍골공원 민간공원 특례사업으로 조성되는 숲세권 장기일반민간임대 주거단지입니다. 본 페이지에서는 사업의 개요, 개발 방향, 단지 설계 특징, 주변 교통 및 생활 인프라 등 핵심 정보를 체계적으로 소개하여 입주자와 투자자가 합리적인 선택을 할 수 있도록 돕습니다."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레, 가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레, 가경 아르보레 사업개요, 청주 가경동 아르보레, 홍골공원 민간임대"
         />
         <link rel="canonical" href="https://niceoi.kr/Brand/intro" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="가경 홍골공원 아르보레 - 사업안내" />
+        <meta property="og:title" content="가경 아르보레 - 사업안내" />
         <meta
           property="og:description"
-          content="가경 홍골공원 아르보레은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다."
+          content="가경 아르보레는 홍골공원을 품은 숲세권 입지와 10년 전세형 구조를 갖춘 장기일반민간임대 단지입니다. 청주 가경동의 새로운 주거 중심지로서 사업 개요와 개발 계획, 단지 특장점을 한눈에 확인할 수 있습니다."
         />
         <meta
           property="og:image"
@@ -88,17 +89,17 @@ const BusinessGuide1 = () => {
           property="og:url"
           content="https://niceoi.kr/Brand/intro"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 사업안내"
+          content="가경 아르보레 - 사업안내"
         />
         <meta
           name="twitter:description"
-          content="가경 홍골공원 아르보레은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다."
+          content="가경 아르보레 사업안내 페이지에서 청주 가경동 홍골공원 특례사업, 장기일반민간임대 구조, 단지 설계와 생활 인프라 등 핵심 정보를 자세히 확인해보세요."
         />
         <meta
           name="twitter:image"
@@ -115,8 +116,8 @@ const BusinessGuide1 = () => {
 		{
 			"@context": "https://schema.org",
 			"@type": "WebPage",
-			"name": "가경 홍골공원 아르보레 - 사업안내",
-			"description": "가경 홍골공원 아르보레은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.",
+			"name": "가경 아르보레 - 사업안내",
+			"description": "가경 아르보레는 청주 가경동 홍골공원 민간공원 특례사업으로 조성되는 숲세권 장기일반민간임대 단지입니다. 본 페이지에서는 사업의 목적, 개발 개요, 단지 특장점과 주변 인프라 정보를 제공하여 입주 희망자에게 실질적인 의사결정 자료를 제공합니다.",
 			"url": "https://niceoi.kr/Brand/intro"
 		}
 		`}
@@ -131,28 +132,28 @@ const BusinessGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 사업안내
+        가경 아르보레 - 사업안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레은 혁신적인 주거 환경을 제공하는 새로운 아파트
-        단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을
-        상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을
-        포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록
-        돕습니다.
+        가경 아르보레는 청주 가경동 홍골공원 민간공원 특례사업으로 조성되는
+        숲세권 장기일반민간임대 주거단지입니다. 이 페이지에서는 사업의 전체적인
+        개요와 개발 계획, 단지 설계 방향과 주변 교통·생활 인프라를 종합적으로
+        소개합니다. 장기 안정 거주와 합리적인 내 집 마련을 동시에 고려하는
+        고객들에게 필요한 정보를 제공하여 보다 나은 선택을 할 수 있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
         <div>
-          평택 제2의 고덕신도시를 꿈꾸는 브레인시티를 누리는 특별한 라이프
-          컬렉션
+          청주 가경동, 홍골공원을 품은 도심 속 숲세권에서 누리는 특별한 라이프 컬렉션
         </div>
-        <div>가경 홍골공원 아르보레의 새로운 자부심으로 찾아옵니다.</div>
+        <div>가경 아르보레가 새로운 자부심으로 찾아옵니다.</div>
       </div>
+
 
       <img
         className={styles.img3}
         src={page1}
-        alt="가경 홍골공원 아르보레 조감도-image1"
+        alt="가경 아르보레 조감도-image1"
       />
 
       <div className={styles.tableContainer}>

@@ -47,10 +47,10 @@ const contents = (text, isLoaded) => {
                     지친 하루를 마치고 가장 나에 가까운 본연의 모습으로 돌아와 누리는 프리미엄입니다.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    브레인시티의 중심
+                    청주 가경동, 홍골공원 중심의 도심 속 숲세권 라이프
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드 가경 홍골공원 아르보레와 함께합니다.
+                    NO.1 숲세권 민간임대 단지, 가경 아르보레와 함께합니다.
                 </div>
             </>
         );
@@ -58,16 +58,16 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    아주대 종합병원이 선택한 새도시!
+                    청주 가경 공원특례로 완성되는 새로운 주거 중심지
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    평택삼성전자캠퍼스 · 지제역 펜타역세권 프리미엄
+                    제2순환로 · 가경터미널 · 청주강서IC가 누리는 트리플 교통 프리미엄
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    가장 높은 브랜드의 첫 시작
+                    10년 전세형 민간임대로 시작하는 안정적인 내 집 마련
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                가경 홍골공원 아르보레
+                    가경 아르보레
                 </div>
             </>
         );
@@ -75,10 +75,10 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    수준 높은 생활, 첨단신도시내 착한 브랜드 아파트
+                    홍골공원을 품은 숲세권, 삶의 수준을 높이는 도심 속 힐링 라이프
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    기대하던 모든 프리미엄이 가경 홍골공원 아르보레에서 펼쳐집니다
+                    기대하던 모든 프리미엄이 가경 아르보레에서 펼쳐집니다.
                 </div>
             </>
         );
@@ -86,13 +86,13 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    주거의 품격과 가치를 높이는 특화설계
+                    주거의 품격과 가치를 높이는 특화 설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    편리한 생활을 위한 최적의 공간설계
+                    편리한 생활을 위한 최적의 공간 설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    소수에게만 허락된 가경 홍골공원 아르보레, 브레인시티에 찾아옵니다
+                    소수에게만 허락된 가경 아르보레, 청주 가경동의 새로운 기준이 됩니다.
                 </div>
             </>
         );

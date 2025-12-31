@@ -9,8 +9,10 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/SalesInfo/SalesInfoAnnouncement/page1.jpg";
-import pdfIcon from "../../assets/icons/pdf-icon.png"; // PDF 아이콘 이미지 임포트
+// import page1 from "../../assets/SalesInfo/SalesInfoAnnouncement/page1.jpg";
+// import pdfIcon from "../../assets/icons/pdf-icon.png"; // PDF 아이콘 이미지 임포트
+
+import Ready from "../../components/Ready/Ready"
 
 const ComplexGuide1 = () => {
   const menuContents = [
@@ -77,14 +79,14 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 모집공고안내</title>
+        <title>가경 아르보레 - 모집공고안내</title>
         <meta
           name="description"
-          content="가경 홍골공원 아르보레의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="가경 아르보레 입주자 모집공고 안내 페이지입니다. 모집공고에 포함된 접수 일정, 신청 자격, 제출 서류 및 유의사항을 명확하게 안내하여 예비 입주자가 혼선 없이 절차를 준비할 수 있도록 돕습니다. 공고문을 통해 필수 정보를 빠짐없이 확인해 보세요."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레, 가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레, 가경 아르보레 모집공고, 가경 아르보레 청약안내"
         />
         <link
           rel="canonical"
@@ -92,10 +94,10 @@ const ComplexGuide1 = () => {
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="가경 홍골공원 아르보레 - 모집공고안내" />
+        <meta property="og:title" content="가경 아르보레 - 모집공고안내" />
         <meta
           property="og:description"
-          content="가경 홍골공원 아르보레의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="가경 아르보레 입주자 모집공고에 포함된 일정, 자격 요건, 제출 서류 및 절차를 한눈에 확인할 수 있는 안내 페이지입니다."
         />
         <meta
           property="og:image"
@@ -105,17 +107,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://niceoi.kr/SalesInfo/announcement"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 모집공고안내"
+          content="가경 아르보레 - 모집공고안내"
         />
         <meta
           name="twitter:description"
-          content="가경 홍골공원 아르보레의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요."
+          content="가경 아르보레 입주자 모집공고를 통해 신청 일정, 자격 조건, 제출 서류 및 유의사항을 꼼꼼히 확인해 보세요."
         />
         <meta
           name="twitter:image"
@@ -130,11 +132,11 @@ const ComplexGuide1 = () => {
         <script type="application/ld+json">
           {`
                  {
-             "@context": "https://schema.org",
-             "@type": "WebPage",
-             "name": "가경 홍골공원 아르보레 - 모집공고안내",
-             "description": "가경 홍골공원 아르보레의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.",
-             "url": "https://niceoi.kr/SalesInfo/announcement"
+                     "@context": "https://schema.org",
+                     "@type": "WebPage",
+                     "name": "가경 아르보레 - 모집공고안내",
+                     "description": "가경 아르보레 입주자 모집공고 안내 페이지로, 모집 일정, 신청 자격, 제출 서류 및 유의사항을 명확하게 안내하여 예비 입주자가 절차를 정확히 준비할 수 있도록 돕습니다.",
+                     "url": "https://niceoi.kr/SalesInfo/announcement"
                  }
                  `}
         </script>
@@ -148,39 +150,41 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 모집공고안내
+        가경 아르보레 - 모집공고안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레의 모집 공고는 분양 전 단계에서 중요한 안내문입니다.
-        이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류
-        등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록
-        지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
+        가경 아르보레 입주자 모집공고 안내 페이지입니다. 모집공고에 포함된
+        접수 일정, 신청 자격, 제출 서류 및 유의사항을 정리하여, 예비 입주자가
+        혼선 없이 청약 및 신청 절차를 준비할 수 있도록 돕습니다. 공고문을 통해
+        반드시 확인해야 할 핵심 정보를 빠짐없이 체크해 보시기 바랍니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>입주자 모집공고안내를 확인하세요</div>
-        <div>가경 홍골공원 아르보레</div>
+        <div>가경 아르보레 입주자 모집공고를 확인하세요</div>
+        <div>청약·신청 전 꼭 필요한 핵심 정보 안내</div>
       </div>
 
-      <img
+      <Ready/>
+
+
+      {/* <img
         className={`${styles.image2} ${
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="가경 홍골공원 아르보레모집공고안내-image1"
+        alt="가경 아르보레모집공고안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
-      />
+      /> */}
 
       {/* 입주자 모집공고 PDF로 보기 버튼 */}
-      <button onClick={openPDF} className={styles.pdfButton}>
+      {/* <button onClick={openPDF} className={styles.pdfButton}>
         <img src={pdfIcon} alt="PDF 아이콘" className={styles.pdfIcon} />{" "}
-        {/* 이미지 추가 */}
         <span>
           모집공고 PDF
           <br />
           확인하기
         </span>
-      </button>
+      </button> */}
 
       {/* 로딩 중일 때 표시할 스피너 */}
       {isLoading && (

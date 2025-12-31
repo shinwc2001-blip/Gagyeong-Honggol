@@ -58,14 +58,14 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 단지배치도</title>
+        <title>가경 아르보레 - 단지배치도</title>
         <meta
           name="description"
-          content="단지 배치도 페이지는 가경 홍골공원 아르보레의 전체 단지 구성도를 제공합니다. 아파트 단지 내 세대 배치, 공용 시설, 주차 공간 등을 시각적으로 보여주어 입주자들이 공간 배치에 대해 명확하게 이해할 수 있도록 돕습니다. 이 배치도를 통해 단지 내 생활을 더 쉽게 계획할 수 있습니다."
+          content="단지 배치도 페이지에서는 가경 아르보레의 전체 단지 구성과 동 배치, 조경, 커뮤니티 시설, 주차 공간 등을 한눈에 확인할 수 있습니다. 홍골공원을 품은 숲세권 단지로서 쾌적한 동간 거리와 효율적인 동·세대 배치를 통해 입주자의 생활 편의성과 프라이버시를 모두 고려한 설계를 제공합니다."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레, 가경 홍골공원 아르보레모델하우스"
+          content="가경 아르보레, 가경 아르보레 단지배치도, 가경 아르보레 단지안내"
         />
         <link
           rel="canonical"
@@ -75,11 +75,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="가경 홍골공원 아르보레 - 단지배치도"
+          content="가경 아르보레 - 단지배치도"
         />
         <meta
           property="og:description"
-          content="단지 배치도 페이지는 가경 홍골공원 아르보레의 전체 단지 구성도를 제공합니다. 아파트 단지 내 세대 배치, 공용 시설, 주차 공간 등을 시각적으로 보여주어 입주자들이 공간 배치에 대해 명확하게 이해할 수 있도록 돕습니다. 이 배치도를 통해 단지 내 생활을 더 쉽게 계획할 수 있습니다."
+          content="가경 아르보레 단지 배치도를 통해 동 배치, 조경, 커뮤니티 시설, 주차동선 등 단지의 전체 구성을 직관적으로 확인해 보세요. 숲세권 입지와 조화된 단지 설계가 돋보이는 프리미엄 주거공간입니다."
         />
         <meta
           property="og:image"
@@ -89,17 +89,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://niceoi.kr/ComplexGuide/intro"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 단지배치도"
+          content="가경 아르보레 - 단지배치도"
         />
         <meta
           name="twitter:description"
-          content="단지 배치도 페이지는 가경 홍골공원 아르보레의 전체 단지 구성도를 제공합니다. 아파트 단지 내 세대 배치, 공용 시설, 주차 공간 등을 시각적으로 보여주어 입주자들이 공간 배치에 대해 명확하게 이해할 수 있도록 돕습니다. 이 배치도를 통해 단지 내 생활을 더 쉽게 계획할 수 있습니다."
+          content="가경 아르보레 단지 배치도 페이지에서 단지 전체 구성, 동 배치, 조경과 커뮤니티 시설 위치를 한 번에 확인해 보세요."
         />
         <meta
           name="twitter:image"
@@ -114,11 +114,11 @@ const ComplexGuide1 = () => {
         <script type="application/ld+json">
           {`
 					{
-			"@context": "https://schema.org",
-			"@type": "WebPage",
-			"name": "가경 홍골공원 아르보레 - 단지배치도",
-			"description": "단지 배치도 페이지는 가경 홍골공원 아르보레의 전체 단지 구성도를 제공합니다. 아파트 단지 내 세대 배치, 공용 시설, 주차 공간 등을 시각적으로 보여주어 입주자들이 공간 배치에 대해 명확하게 이해할 수 있도록 돕습니다. 이 배치도를 통해 단지 내 생활을 더 쉽게 계획할 수 있습니다.",
-			"url": "https://niceoi.kr/ComplexGuide/intro"
+						"@context": "https://schema.org",
+						"@type": "WebPage",
+						"name": "가경 아르보레 - 단지배치도",
+						"description": "가경 아르보레 단지 배치도 페이지는 동·세대 배치, 조경, 커뮤니티 시설, 주차 공간 등 단지 전반의 구조를 시각적으로 제공하여 입주 예정자들이 단지 내 생활 동선을 쉽게 이해하고 계획할 수 있도록 돕습니다.",
+						"url": "https://niceoi.kr/ComplexGuide/intro"
 					}
 					`}
         </script>
@@ -130,20 +130,20 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 단지배치도
+        가경 아르보레 - 단지배치도
       </h1>
       <p className={styles.screenReaderOnly}>
-        단지 배치도 페이지는 가경 홍골공원 아르보레의 전체 단지 구성도를
-        제공합니다. 아파트 단지 내 세대 배치, 공용 시설, 주차 공간 등을
-        시각적으로 보여주어 입주자들이 공간 배치에 대해 명확하게 이해할 수
-        있도록 돕습니다. 이 배치도를 통해 단지 내 생활을 더 쉽게 계획할 수
-        있습니다.
+        가경 아르보레 단지 배치도 페이지는 단지 전체 구성과 동 배치,
+        공용시설 및 주차 공간의 위치를 한눈에 보여주는 안내 페이지입니다.
+        입주 예정자들이 실제 생활 동선과 조경, 편의시설 이용 계획을
+        미리 가늠해 볼 수 있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>가경 홍골공원 아르보레가 눈부신 가치 위에</div>
-        <div>새로운 자부심으로 찾아옵니다.</div>
+        <div>청주 가경동 숲세권 프리미엄의 가치 위에</div>
+        <div>가경 아르보레가 새로운 자부심으로 찾아옵니다.</div>
       </div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
       <img
@@ -151,7 +151,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="가경 홍골공원 아르보레단지배치도-image1"
+        alt="가경 아르보레단지배치도-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

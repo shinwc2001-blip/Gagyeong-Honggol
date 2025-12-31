@@ -59,14 +59,14 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 인터넷청약</title>
+        <title>가경 아르보레 - 인터넷청약</title>
         <meta
           name="description"
-          content="가경 홍골공원 아르보레의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 가경 홍골공원 아르보레의 기회를 놓치지 마세요."
+          content="가경 아르보레 인터넷 청약 안내 페이지입니다. 온라인을 통해 간편하게 청약 절차를 진행할 수 있으며, 신청 전 반드시 확인해야 할 자격 요건, 절차 및 유의사항을 정리하여 제공합니다. 인터넷 청약 방법을 확인하고 가경 아르보레의 기회를 준비해 보세요."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레, 가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레, 가경 아르보레 인터넷청약, 가경 아르보레 청약안내"
         />
         <link
           rel="canonical"
@@ -76,11 +76,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="가경 홍골공원 아르보레 - 인터넷청약"
+          content="가경 아르보레 - 인터넷청약"
         />
         <meta
           property="og:description"
-          content="가경 홍골공원 아르보레의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 가경 홍골공원 아르보레의 기회를 놓치지 마세요."
+          content="가경 아르보레 인터넷 청약 절차와 신청 방법을 한눈에 확인할 수 있는 안내 페이지입니다. 온라인으로 간편하게 청약을 진행하기 전에 필요한 정보를 꼼꼼히 확인해 보세요."
         />
         <meta
           property="og:image"
@@ -90,17 +90,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://niceoi.kr/SalesInfo/guide"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 인터넷청약"
+          content="가경 아르보레 - 인터넷청약"
         />
         <meta
           name="twitter:description"
-          content="가경 홍골공원 아르보레의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 가경 홍골공원 아르보레의 기회를 놓치지 마세요."
+          content="가경 아르보레 인터넷 청약 안내 페이지에서 신청 절차, 자격 요건, 유의사항을 미리 확인하고 청약을 준비해 보세요."
         />
         <meta
           name="twitter:image"
@@ -117,8 +117,8 @@ const ComplexGuide1 = () => {
                  {
              "@context": "https://schema.org",
              "@type": "WebPage",
-             "name": "가경 홍골공원 아르보레 - 인터넷청약",
-             "description": "가경 홍골공원 아르보레의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 가경 홍골공원 아르보레의 기회를 놓치지 마세요.",
+             "name": "가경 아르보레 - 인터넷청약",
+             "description": "가경 아르보레 인터넷 청약 안내 페이지로, 온라인으로 청약을 진행하기 위한 절차, 신청 자격, 준비 서류 및 유의사항을 정리하여 제공합니다.",
              "url": "https://niceoi.kr/SalesInfo/guide"
                  }
                  `}
@@ -133,19 +133,21 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 인터넷청약
+        가경 아르보레 - 인터넷청약
       </h1>
       <p className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수
-        있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제
-        어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를
-        확인하고, 청약을 통해 가경 홍골공원 아르보레의 기회를 놓치지 마세요.
+        가경 아르보레의 인터넷 청약은 온라인을 통해 간편하게 신청할 수 있는
+        청약 방법입니다. 예비 입주자는 청약 전 자격 요건, 신청 절차, 준비
+        서류 및 유의사항을 충분히 확인한 뒤, 정해진 기간 내에 인터넷 청약을
+        진행하실 수 있습니다. 본 페이지를 통해 관련 정보를 사전에 숙지하여
+        청약 기회를 놓치지 않도록 준비해 보시기 바랍니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>인터넷 청약하는 방법을 확인하세요</div>
-        <div>소수만 누리는 프리미엄 가경 홍골공원 아르보레</div>
+        <div>인터넷 청약 절차와 방법을 확인하세요</div>
+        <div>프리미엄 주거단지 가경 아르보레</div>
       </div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
       <img
@@ -153,7 +155,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="가경 홍골공원 아르보레청약안내-image1"
+        alt="가경 아르보레청약안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

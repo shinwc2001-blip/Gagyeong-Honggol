@@ -7,7 +7,9 @@ import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
-import page1 from "../../assets/SalesInfo/SalesInfoStampTax/page1.jpg";
+// import page1 from "../../assets/SalesInfo/SalesInfoStampTax/page1.jpg";
+
+import Ready from "../../components/Ready/Ready"
 
 const ComplexGuide1 = () => {
   const menuContents = [
@@ -59,25 +61,25 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 인지세안내</title>
+        <title>가경 아르보레 - 인지세안내</title>
         <meta
           name="description"
-          content="가경 홍골공원 아르보레의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
+          content="가경 아르보레 인지세 안내 페이지는 계약 체결 시 발생하는 인지세 관련 정보를 제공합니다. 인지세의 개념, 적용 기준, 세액 및 납부 방법을 알기 쉽게 정리하여, 예비 입주자가 세금 부담을 미리 파악하고 준비할 수 있도록 돕습니다."
         />
         <meta
           name="keywords"
-          content="앤네이처 미래도, 가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레, 가경 아르보레 인지세, 가경 아르보레 세금 안내"
         />
         <link rel="canonical" href="https://niceoi.kr/SalesInfo/stampTax" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="가경 홍골공원 아르보레 - 인지세안내"
+          content="가경 아르보레 - 인지세안내"
         />
         <meta
           property="og:description"
-          content="가경 홍골공원 아르보레의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
+          content="가경 아르보레 인지세 안내 페이지에서 계약 시 부과되는 인지세의 기준, 세액 및 납부 절차를 간편하게 확인해 보세요."
         />
         <meta
           property="og:image"
@@ -87,17 +89,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://niceoi.kr/SalesInfo/stampTax"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 인지세안내"
+          content="가경 아르보레 - 인지세안내"
         />
         <meta
           name="twitter:description"
-          content="가경 홍골공원 아르보레의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
+          content="가경 아르보레 인지세 안내 페이지는 계약 시 발생하는 인지세의 개념, 세액 및 납부 절차를 정리해 입주 예정자의 세금 준비를 돕습니다."
         />
         <meta
           name="twitter:image"
@@ -114,8 +116,8 @@ const ComplexGuide1 = () => {
                  {
              "@context": "https://schema.org",
              "@type": "WebPage",
-             "name": "가경 홍골공원 아르보레 - 인지세안내",
-             "description": "가경 홍골공원 아르보레의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.",
+             "name": "가경 아르보레 - 인지세안내",
+             "description": "가경 아르보레 인지세 안내 페이지는 주택 계약 시 부과되는 인지세의 개념, 적용 기준, 세액 및 납부 절차를 쉽게 설명하여 입주 예정자가 정확하게 준비할 수 있도록 돕습니다.",
              "url": "https://niceoi.kr/SalesInfo/stampTax"
                  }
                  `}
@@ -130,30 +132,31 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 인지세안내
+        가경 아르보레 - 인지세안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레의 인지세 안내 페이지는 분양과 관련된 세금 정보를
-        제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에
-        파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법,
-        세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록
-        돕습니다.
+        가경 아르보레 인지세 안내 페이지는 주택 계약 체결 시 발생하는 인지세에
+        대한 정보를 제공합니다. 인지세의 의미와 적용 기준, 금액 산정 방식 및
+        납부 절차를 정리하여, 예비 입주자가 계약 단계에서 필요한 세금 부담을
+        미리 파악하고 정확하게 준비할 수 있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>인터넷 청약하는 방법을 확인하세요</div>
-        <div>소수만 누리는 프리미엄 </div>
+        <div>인지세 납부 기준과 절차를 확인하세요</div>
+        <div>가경 아르보레 계약 준비에 필요한 핵심 세금 안내</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      <img
+      {/* <img
         className={`${styles.image2} ${
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="가경 홍골공원 아르보레 인지세안내-image1"
+        alt="가경 아르보레 인지세안내-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
-      />
+      /> */}
+
+      <Ready/>
 
       <div className={styles.commonBox2}>
         <div className={styles.notice}>

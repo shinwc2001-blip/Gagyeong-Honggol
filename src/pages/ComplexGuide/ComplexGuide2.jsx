@@ -58,14 +58,14 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>가경 홍골공원 아르보레 - 호수배치도</title>
+        <title>가경 아르보레 - 호수배치도</title>
         <meta
           name="description"
-          content="호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이 원하는 호수를 찾고 세부적인 배치 정보를 통해 자신의 집을 상상할 수 있게 돕습니다. 각 호수의 특징과 장점을 살펴보며 선택의 폭을 넓힐 수 있습니다."
+          content="호수 배치도 페이지에서는 가경 아르보레 각 동·호수별 위치와 평면 개요를 안내합니다. 고객이 선호하는 향과 전망, 층, 동 위치를 쉽게 비교하고, 실제 생활을 구체적으로 상상해 볼 수 있도록 도와줍니다."
         />
         <meta
           name="keywords"
-          content="가경 홍골공원 아르보레, 가경 홍골공원 아르보레 모델하우스"
+          content="가경 아르보레, 가경 아르보레 호수배치도, 가경 아르보레 동호수 안내"
         />
         <link
           rel="canonical"
@@ -75,11 +75,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="가경 홍골공원 아르보레 - 호수배치도"
+          content="가경 아르보레 - 호수배치도"
         />
         <meta
           property="og:description"
-          content="호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이 원하는 호수를 찾고 세부적인 배치 정보를 통해 자신의 집을 상상할 수 있게 돕습니다. 각 호수의 특징과 장점을 살펴보며 선택의 폭을 넓힐 수 있습니다."
+          content="가경 아르보레 호수 배치도 페이지는 동·호수별 위치와 배치를 시각적으로 제공하여, 원하는 향·층·동을 쉽게 확인하고 선택할 수 있도록 돕는 안내 페이지입니다."
         />
         <meta
           property="og:image"
@@ -89,17 +89,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://niceoi.kr/ComplexGuide/detailintro"
         />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:site_name" content="가경 아르보레" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="가경 홍골공원 아르보레 - 호수배치도"
+          content="가경 아르보레 - 호수배치도"
         />
         <meta
           name="twitter:description"
-          content="호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이 원하는 호수를 찾고 세부적인 배치 정보를 통해 자신의 집을 상상할 수 있게 돕습니다. 각 호수의 특징과 장점을 살펴보며 선택의 폭을 넓힐 수 있습니다."
+          content="가경 아르보레 호수 배치도를 통해 각 동·호수 위치와 특징을 확인하고, 나에게 맞는 집을 구체적으로 상상해 보세요."
         />
         <meta
           name="twitter:image"
@@ -114,11 +114,11 @@ const ComplexGuide1 = () => {
         <script type="application/ld+json">
           {`
 					{
-			"@context": "https://schema.org",
-			"@type": "WebPage",
-			"name": "가경 홍골공원 아르보레 - 호수배치도",
-			"description": "호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이 원하는 호수를 찾고 세부적인 배치 정보를 통해 자신의 집을 상상할 수 있게 돕습니다. 각 호수의 특징과 장점을 살펴보며 선택의 폭을 넓힐 수 있습니다.",
-			"url": "https://niceoi.kr/ComplexGuide/detailintro"
+						"@context": "https://schema.org",
+						"@type": "WebPage",
+						"name": "가경 아르보레 - 호수배치도",
+						"description": "가경 아르보레 호수 배치도 페이지는 각 동·호수의 위치와 배치를 안내하여, 고객이 선호하는 향·층·전망을 고려해 세대를 선택할 수 있도록 돕는 정보 페이지입니다.",
+						"url": "https://niceoi.kr/ComplexGuide/detailintro"
 					}
 					`}
         </script>
@@ -130,18 +130,20 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 호수배치도
+        가경 아르보레 - 호수배치도
       </h1>
       <p className={styles.screenReaderOnly}>
-        호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이
-        원하는 호수를 찾고 세부적인 배치 정보를 통해 자신의 집을 상상할 수 있게
-        돕습니다. 각 호수의 특징과 장점을 살펴보며 선택의 폭을 넓힐 수 있습니다.
+        가경 아르보레 호수 배치도 페이지는 각 세대가 위치한 동·호수와
+        배치 정보를 제공하는 안내 페이지입니다. 고객이 원하는 향, 층,
+        전망과 동 위치를 비교해 보며, 자신의 라이프스타일에 맞는 집을
+        보다 구체적으로 상상하고 선택할 수 있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>브레인시티 수지인이 눈부신 가치 위에</div>
-        <div>새로운 자부심으로 찾아옵니다.</div>
+        <div>청주 가경동 숲세권 프리미엄의 가치 위에</div>
+        <div>가경 아르보레가 새로운 자부심으로 찾아옵니다.</div>
       </div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
       <img
@@ -149,7 +151,7 @@ const ComplexGuide1 = () => {
           isImage2Loaded ? styles.showImage2 : ""
         }`}
         src={page1}
-        alt="가경 홍골공원 아르보레 호수배치도-image1"
+        alt="가경 아르보레 호수배치도-image1"
         onLoad={handleImageLoad} // 이미지 로드 후 애니메이션 실행
       />
 

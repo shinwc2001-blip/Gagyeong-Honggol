@@ -61,10 +61,11 @@ const FloorPlan6 = () => {
 
 			<MenuBar contents={menuContents} />
 
-			<div className={styles.textBox}>
-				<div>평택 브레인시티의 눈부신 가치 위에</div>
-				<div>미래도의 새로운 자부심으로 찾아옵니다.</div>
-			</div>
+      <div className={styles.textBox}>
+        <div>청주 가경동 숲세권 프리미엄 위에</div>
+        <div>가경 아르보레의 넉넉한 라이프스타일을 완성하세요.</div>
+      </div>
+
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
