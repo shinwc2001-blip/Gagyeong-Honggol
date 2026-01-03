@@ -112,7 +112,7 @@ const LocationEnvironment1 = () => {
           name="keywords"
           content="가경 아르보레, 가경 아르보레 입지, 청주 가경동 아파트, 홍골공원 아파트"
         />
-        <link rel="canonical" href="https://niceoi.kr/LocationEnvironment/intro" />
+        <link rel="canonical" href="https://www.model-house.co.kr/LocationEnvironment/intro" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
@@ -125,11 +125,11 @@ const LocationEnvironment1 = () => {
         />
         <meta
           property="og:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://niceoi.kr/LocationEnvironment/intro"
+          content="https://www.model-house.co.kr/LocationEnvironment/intro"
         />
         <meta property="og:site_name" content="가경 아르보레" />
 
@@ -145,11 +145,11 @@ const LocationEnvironment1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://niceoi.kr/LocationEnvironment/intro"
+          content="https://www.model-house.co.kr/LocationEnvironment/intro"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -160,7 +160,7 @@ const LocationEnvironment1 = () => {
 						"@type": "WebPage",
 						"name": "가경 아르보레 - 입지안내",
 						"description": "가경 아르보레 입지안내 페이지는 청주 가경동 홍골공원 인접 숲세권 입지와 제2순환로·가경터미널 등 교통망, 교육·쇼핑·공원 인프라 및 향후 개발호재 정보를 종합적으로 제공합니다.",
-						"url": "https://niceoi.kr/LocationEnvironment/intro"
+						"url": "https://www.model-house.co.kr/LocationEnvironment/intro"
 				 }
 				 `}
         </script>

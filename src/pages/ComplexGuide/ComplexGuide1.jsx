@@ -69,7 +69,7 @@ const ComplexGuide1 = () => {
         />
         <link
           rel="canonical"
-          href="https://niceoi.kr/ComplexGuide/intro"
+          href="https://www.model-house.co.kr/ComplexGuide/intro"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -83,11 +83,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           property="og:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://niceoi.kr/ComplexGuide/intro"
+          content="https://www.model-house.co.kr/ComplexGuide/intro"
         />
         <meta property="og:site_name" content="가경 아르보레" />
 
@@ -103,11 +103,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://niceoi.kr/ComplexGuide/intro"
+          content="https://www.model-house.co.kr/ComplexGuide/intro"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -118,7 +118,7 @@ const ComplexGuide1 = () => {
 						"@type": "WebPage",
 						"name": "가경 아르보레 - 단지배치도",
 						"description": "가경 아르보레 단지 배치도 페이지는 동·세대 배치, 조경, 커뮤니티 시설, 주차 공간 등 단지 전반의 구조를 시각적으로 제공하여 입주 예정자들이 단지 내 생활 동선을 쉽게 이해하고 계획할 수 있도록 돕습니다.",
-						"url": "https://niceoi.kr/ComplexGuide/intro"
+						"url": "https://www.model-house.co.kr/ComplexGuide/intro"
 					}
 					`}
         </script>

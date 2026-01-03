@@ -63,7 +63,7 @@ const Brand2 = () => {
           name="keywords"
           content="가경 아르보레, 가경 아르보레 홍보영상, 가경 아르보레 모델하우스"
         />
-        <link rel="canonical" href="https://niceoi.kr/Brand/video" />
+        <link rel="canonical" href="https://www.model-house.co.kr/Brand/video" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta property="og:title" content="가경 아르보레 - 홍보영상" />
@@ -73,11 +73,11 @@ const Brand2 = () => {
         />
         <meta
           property="og:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://niceoi.kr/Brand/video"
+          content="https://www.model-house.co.kr/Brand/video"
         />
         <meta property="og:site_name" content="가경 아르보레" />
 
@@ -93,11 +93,11 @@ const Brand2 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://niceoi.kr/Brand/video"
+          content="https://www.model-house.co.kr/Brand/video"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -108,7 +108,7 @@ const Brand2 = () => {
 																"@type": "WebPage",
 																"name": "가경 아르보레 - 홍보영상",
 																"description": "가경 아르보레의 홍보영상은 청주 가경동 홍골공원 인근에 들어서는 숲세권 장기일반민간임대 단지의 입지, 설계, 생활 인프라, 10년 전세형 구조 등 주요 특징을 직관적으로 보여주는 콘텐츠입니다.",
-																"url": "https://niceoi.kr/Brand/video"
+																"url": "https://www.model-house.co.kr/Brand/video"
 															}
 															`}
         </script>

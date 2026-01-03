@@ -70,7 +70,7 @@ const ComplexGuide1 = () => {
           name="keywords"
           content="가경 아르보레, 가경 아르보레 인지세, 가경 아르보레 세금 안내"
         />
-        <link rel="canonical" href="https://niceoi.kr/SalesInfo/stampTax" />
+        <link rel="canonical" href="https://www.model-house.co.kr/SalesInfo/stampTax" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
@@ -83,11 +83,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           property="og:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://niceoi.kr/SalesInfo/stampTax"
+          content="https://www.model-house.co.kr/SalesInfo/stampTax"
         />
         <meta property="og:site_name" content="가경 아르보레" />
 
@@ -103,11 +103,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://niceoi.kr/SalesInfo/stampTax"
+          content="https://www.model-house.co.kr/SalesInfo/stampTax"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -118,7 +118,7 @@ const ComplexGuide1 = () => {
              "@type": "WebPage",
              "name": "가경 아르보레 - 인지세안내",
              "description": "가경 아르보레 인지세 안내 페이지는 주택 계약 시 부과되는 인지세의 개념, 적용 기준, 세액 및 납부 절차를 쉽게 설명하여 입주 예정자가 정확하게 준비할 수 있도록 돕습니다.",
-             "url": "https://niceoi.kr/SalesInfo/stampTax"
+             "url": "https://www.model-house.co.kr/SalesInfo/stampTax"
                  }
                  `}
         </script>

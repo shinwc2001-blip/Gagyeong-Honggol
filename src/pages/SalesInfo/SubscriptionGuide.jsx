@@ -71,7 +71,7 @@ const ComplexGuide1 = () => {
         />
         <link
           rel="canonical"
-          href="https://niceoi.kr/SalesInfo/SubscriptionGuide"
+          href="https://www.model-house.co.kr/SalesInfo/SubscriptionGuide"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -85,11 +85,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           property="og:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://niceoi.kr/SalesInfo/SubscriptionGuide"
+          content="https://www.model-house.co.kr/SalesInfo/SubscriptionGuide"
         />
         <meta property="og:site_name" content="가경 아르보레" />
 
@@ -105,11 +105,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://niceoi.kr/SalesInfo/SubscriptionGuide"
+          content="https://www.model-house.co.kr/SalesInfo/SubscriptionGuide"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -120,7 +120,7 @@ const ComplexGuide1 = () => {
                      "@type": "WebPage",
                      "name": "가경 아르보레 - 체크포인트",
                      "description": "가경 아르보레 청약 및 계약 전에 확인해야 할 청약 자격, 서류 준비, 일정 및 유의사항을 정리한 체크포인트 안내 페이지입니다.",
-                     "url": "https://niceoi.kr/SalesInfo/SubscriptionGuide"
+                     "url": "https://www.model-house.co.kr/SalesInfo/SubscriptionGuide"
                  }
                  `}
         </script>

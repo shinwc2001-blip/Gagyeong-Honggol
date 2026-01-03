@@ -69,7 +69,7 @@ const ComplexGuide3 = () => {
         />
         <link
           rel="canonical"
-          href="https://niceoi.kr/ComplexGuide/community"
+          href="https://www.model-house.co.kr/ComplexGuide/community"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -83,11 +83,11 @@ const ComplexGuide3 = () => {
         />
         <meta
           property="og:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://niceoi.kr/ComplexGuide/community"
+          content="https://www.model-house.co.kr/ComplexGuide/community"
         />
         <meta property="og:site_name" content="가경 아르보레" />
 
@@ -103,11 +103,11 @@ const ComplexGuide3 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://niceoi.kr/ComplexGuide/community"
+          content="https://www.model-house.co.kr/ComplexGuide/community"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -118,7 +118,7 @@ const ComplexGuide3 = () => {
 						"@type": "WebPage",
 						"name": "가경 아르보레 - 커뮤니티",
 						"description": "가경 아르보레 커뮤니티 페이지는 단지 내 피트니스, 독서실·스터디룸, 라운지, 키즈·가족 커뮤니티룸 등 입주민의 생활 편의와 소통을 위한 다양한 커뮤니티 시설을 소개합니다.",
-						"url": "https://niceoi.kr/ComplexGuide/community"
+						"url": "https://www.model-house.co.kr/ComplexGuide/community"
 					}
 					`}
         </script>

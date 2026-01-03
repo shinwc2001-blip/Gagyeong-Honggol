@@ -72,7 +72,7 @@ const BusinessGuide2 = () => {
           name="keywords"
           content="가경 아르보레, 가경 아르보레 분양일정, 가경 아르보레 모집일정"
         />
-        <link rel="canonical" href="https://niceoi.kr/BusinessGuide/plan" />
+        <link rel="canonical" href="https://www.model-house.co.kr/BusinessGuide/plan" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta property="og:title" content="가경 아르보레 - 분양일정" />
@@ -82,11 +82,11 @@ const BusinessGuide2 = () => {
         />
         <meta
           property="og:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://niceoi.kr/BusinessGuide/plan"
+          content="https://www.model-house.co.kr/BusinessGuide/plan"
         />
         <meta property="og:site_name" content="가경 아르보레" />
 
@@ -102,11 +102,11 @@ const BusinessGuide2 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://niceoi.kr/Main1.png"
+          content="https://www.model-house.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://niceoi.kr/BusinessGuide/plan"
+          content="https://www.model-house.co.kr/BusinessGuide/plan"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -117,7 +117,7 @@ const BusinessGuide2 = () => {
 						"@type": "WebPage",
 						"name": "가경 아르보레 - 분양일정",
 						"description": "가경 아르보레의 분양 및 임차인 모집 일정을 종합적으로 안내합니다. 청약 접수, 계약, 입주 일정 등 중요한 일정을 한눈에 확인할 수 있습니다.",
-						"url": "https://niceoi.kr/BusinessGuide/plan"
+						"url": "https://www.model-house.co.kr/BusinessGuide/plan"
 					}
 					`}
         </script>
