@@ -4,9 +4,9 @@ import styles from "./PageBottomText.module.scss";
 const PageBottomText = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.title}>평택 브레인시티 중흥S-클래스 모델하우스</div>
+            <div className={styles.title}>청주 가경 모델하우스</div>
 
-            <div>평택 브레인시티 중흥S클래스 모델하우스는</div>
+            <div>청주 가경 아르보레는</div>
             <div>상담사들의 허위 과장된 설명으로 인한</div>
             <div>고객님들의 피해방지 및 추후 문제 발생 시</div>
             <div>책임소재를 분명히 하기 위해</div>
