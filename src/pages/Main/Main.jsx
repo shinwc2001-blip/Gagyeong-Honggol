@@ -200,9 +200,9 @@ const Main = () => {
         <div className={styles.overlay}></div>
         <div className={styles.mainImageTextBox}>
           <div className={styles.mainImageTextSub}>
-            분양가 상한제 적용 <span className={styles.greyText}>착한 분양가</span> |
-            부담을 줄여주는 <span className={styles.greyText}>합리적 옵션</span> |
-            계약금 5%로 내 집 마련 기회 <span className={styles.greyText}>유리한 조건</span>
+             청주 가경의 숲생활을 누릴 수 있는 <span className={styles.greyText}>착한 분양가</span> |
+              부담을 줄여주는 <span className={styles.greyText}>합리적 옵션</span> |
+             내 집 마련 기회 <span className={styles.greyText}>유리한 조건</span>
           </div>
 
           <div className={styles.mainImageTitleBox}>
@@ -239,7 +239,7 @@ const Main = () => {
 
                 <div className={styles.text3}>
                   - 가경동 중심 생활권, 대규모 공원 인접<br />
-                  - 청주 전역으로 연결되는 주요 도로 접근성 우수<br />
+                  - 청주 가경에서 연결되는 주요 도로 접근성 우수<br />
                   - 교육·쇼핑·의료 인프라 풍부한 원스톱 생활권<br />
                   - 모두가 누리는 프리미엄, 가경 아르보레
                 </div>
@@ -465,11 +465,11 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
             <div className={styles.mainImageTextSub1}>
-              분양가 상한제 적용<br />
+              내집마련<br />
               <span className={styles.greyText}>합리적 분양가</span><br />
               초기 부담을 낮춘<br />
               <span className={styles.greyText}>선택형 옵션</span><br />
-              계약금 5%로 내 집 마련 기회<br />
+             내 집 마련 기회<br />
               <span className={styles.greyText}>우수한 조건</span>
             </div>
             <div className={styles.mainImageTitleBox1}>
@@ -490,7 +490,7 @@ const Main = () => {
             </div>
                 <div className={styles.text3}>
                   - 가경동 중심 생활권, 대규모 공원 인접<br />
-                  - 청주 전역으로 연결되는 주요 도로 접근성 우수<br />
+                  - 청주 가경에서 연결되는 주요 도로 접근성 우수<br />
                   - 교육·쇼핑·의료 인프라 풍부한 원스톱 생활권<br />
                   - 모두가 누리는 프리미엄, 가경 아르보레
                 </div>

@@ -35,7 +35,7 @@ const LocationSection = [
   },
   {
     img: section2Image3,
-    titleText: "청주 전역을 더 가깝게<br />쾌속으로 연결되는 교통환경",
+    titleText: "청주의 중심을 더 가깝게<br />쾌속으로 연결되는 교통환경",
     contentText:
       "제2순환로, 서청주IC, 청주강서IC 접근성 우수<br />청주권 주요 업무·상업지로 편리한 이동",
   },

@@ -73,7 +73,7 @@ const Footer = () => {
           {/* 시행사/시공사 */}
           <div className={styles.mobileCompany}>
             <div>
-              <strong>시&nbsp;공&nbsp;사</strong> (주)BS건설
+              <strong>시&nbsp;공&nbsp;사</strong> (주)BS건설(예정)
             </div>
           </div>
 
@@ -129,7 +129,7 @@ const Footer = () => {
               </div>
               <div className={styles.companyInfo}>
                 <div>
-                  <strong>시&nbsp;공&nbsp;사</strong> (주)BS건설 
+                  <strong>시&nbsp;공&nbsp;사</strong> (주)BS건설 (예정)
                 </div>
               </div>
               <div className={styles.buttonRow}>
@@ -157,7 +157,7 @@ const Footer = () => {
           </div>
           <div className={styles.desktopCopyright}>
             <p>
-              COPYRIGHTⓒ 2025 가경 아르보레 INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2026 가경 아르보레 INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </>
